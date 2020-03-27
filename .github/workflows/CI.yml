@@ -18,7 +18,7 @@ jobs:
       - name: Composer validate
         run: composer validate
       - name: Install dependencies
-        run: composer --no-dev --prefer-dist --no-progress --no-suggest
+        run: composer install --no-dev --prefer-dist --no-progress --no-suggest
       - name: Build source code
         run: php -dphar.readonly=0 ~/DevTools.phar --make ./ --out ./out.phar
       - name: Upload artifact
