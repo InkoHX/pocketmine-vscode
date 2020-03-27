@@ -19,7 +19,7 @@
 Open a terminal and execute the following command.
 
 ```bash
-composer install
+composer install --prefer-dist --no-progress --no-suggest
 ```
 
 ## Contributing
