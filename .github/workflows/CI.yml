@@ -15,6 +15,17 @@ jobs:
         uses: actions/checkout@v2
       - name: Download DevTools
         run: wget https://github.com/pmmp/DevTools/releases/download/1.14.0/DevTools.phar -O ~/DevTools.phar
+      - name: Get Composer Cache Directory
+        id: composer-cache
+        run: |
+          echo "::set-output name=dir::$(composer config cache-files-dir)"
+      - name: Restore cache
+        uses: actions/cache@v1
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
       - name: Composer validate
         run: composer validate
       - name: Install dependencies
