@@ -1,5 +1,6 @@
 {
   "name": "your-name/pocketmine-vscode",
+  "license": "WTFPL",
   "description": "This is a template for developing PocketMine-MP plugin in VS Code.",
   "authors": [
     {
