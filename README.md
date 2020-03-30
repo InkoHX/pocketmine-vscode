@@ -10,10 +10,12 @@
 
 ## Recommended Extensions
 
-- felixfbecker.php-intellisense
-- bmewburn.vscode-intelephense-client
-- MehediDracula.php-namespace-resolver
-- ikappas.composer
+- IntelliSense (choose one)
+  - [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
+  - [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+- [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+- [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
+- [Composer](https://marketplace.visualstudio.com/items?itemName=ikappas.composer)
 
 ## Install dependencies
 
