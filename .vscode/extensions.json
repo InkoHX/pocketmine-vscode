@@ -2,6 +2,7 @@
   "recommendations": [
     "felixfbecker.php-intellisense",
     "MehediDracula.php-namespace-resolver",
-    "bmewburn.vscode-intelephense-client"
+    "bmewburn.vscode-intelephense-client",
+    "ikappas.composer"
   ]
 }

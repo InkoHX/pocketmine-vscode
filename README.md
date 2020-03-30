@@ -13,6 +13,7 @@
 - felixfbecker.php-intellisense
 - bmewburn.vscode-intelephense-client
 - MehediDracula.php-namespace-resolver
+- ikappas.composer
 
 ## Install dependencies
 
