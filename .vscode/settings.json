@@ -67,5 +67,6 @@
     "zlib"
   ],
   "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
-  "php.suggest.basic": false
+  "php.suggest.basic": false,
+  "files.eol": "\n"
 }
