@@ -15,8 +15,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Lint Code Base
         uses: docker://github/super-linter:v2.2.0
-        env:
-          VALIDATE_ALL_CODEBASE: false
       - name: Download DevTools
         run: wget https://github.com/pmmp/DevTools/releases/download/1.14.0/DevTools.phar -O ~/DevTools.phar
       - name: Get Composer Cache Directory
